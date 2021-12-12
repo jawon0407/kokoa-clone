@@ -1,0 +1,18 @@
+#friends-subheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(175, 175, 175, 0.3);
+  padding: var(--horizontal-space);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#friends-subheader i {
+  color: rgba(0, 0, 0, 0.3);
+  margin: 0px 5px;
+}
+
+.friends__screen {
+  padding: 0px var(--horizontal-space);
+}

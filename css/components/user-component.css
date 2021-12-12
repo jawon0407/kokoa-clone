@@ -1,0 +1,32 @@
+.user-component,
+.user-component_column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avator {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+}
+
+.user-component__avator--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.user-component__avator--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
