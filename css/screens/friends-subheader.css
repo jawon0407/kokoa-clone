@@ -9,7 +9,7 @@
   margin-bottom: 10px;
 }
 #friends-subheader i {
-  color: rgba(0, 0, 0, 0.3);
+  color:var(--text-color);
   margin: 0px 5px;
 }
 
