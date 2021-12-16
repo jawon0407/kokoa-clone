@@ -10,3 +10,12 @@ justify-content: center;
 color: white;
 font-weight: 600;
 }
+.tomato-dot{
+background-color: tomato;
+width: 6px;
+height: 6px;
+border-radius: 15px;
+position:absolute;
+top:-5px;
+right:-5px;
+}
