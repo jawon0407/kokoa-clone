@@ -44,6 +44,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: var(--main-border);
+  padding: 10px;
 }
 .open-post__title {
   font-weight: 600;
@@ -97,8 +98,8 @@
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
-  right: 5px;
-  bottom: 5px;
+  right: 15px;
+  bottom: 15px;
   font-size: 12px;
 }
 .open-post__heartcount span {
