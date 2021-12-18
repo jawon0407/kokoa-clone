@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(175, 175, 175, 0.15);
+  background-color: rgb(175, 175, 175, 0.35);
   padding: var(--horizontal-space);
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 #friends-subheader i {
-  color:var(--text-color);
+  color: var(--text-color);
   margin: 0px 5px;
 }
 
