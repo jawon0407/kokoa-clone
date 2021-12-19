@@ -19,6 +19,27 @@
   font-weight: 600;
   font-size: 22px;
 }
+
+.user-component__block{
+  display:flex;
+  position: relative;
+  align-items: center;
+}
+.user-component__text span{
+  display:block;
+  color:tomato;
+  border:1px solid tomato;
+  border-radius: 50%;
+  width:15px;
+  height:15px;
+  text-align: center;
+  position:absolute;
+  right: -25px;
+  bottom:0px;
+  font-size: 14px;
+}
+
+
 .user-component__subtitle {
   margin-top: 8px;
   color: var(--text-color);
@@ -60,4 +81,12 @@
 .user-component__time{
   display:block;
   margin-bottom:10px;
+}
+
+..friends-user-component {
+  justify-content: space-between;
+  margin-bottom:var(--horizontal-space);
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center; 
 }

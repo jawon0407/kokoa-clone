@@ -8,6 +8,7 @@
 @import "components/friends-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /*Screens*/
 @import "screens/login.css";
