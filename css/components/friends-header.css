@@ -28,10 +28,3 @@
 .friends-header_icons>span:last-child{
   position:relative;
 }
-.friends-user-component {
-  justify-content: space-between;
-  margin-bottom:var(--horizontal-space);
-  padding-bottom: 5px;
-  display: flex;
-  align-items: center; 
-}
