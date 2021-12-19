@@ -83,7 +83,7 @@
   margin-bottom:10px;
 }
 
-..friends-user-component {
+.friends-user-component {
   justify-content: space-between;
   margin-bottom:var(--horizontal-space);
   padding-bottom: 5px;

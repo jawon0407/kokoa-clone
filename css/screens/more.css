@@ -1,3 +1,21 @@
 .more-screen .icon-row{
     margin-top:35px;
 }
+.more-suggestions{
+    margin-top:50px;
+    border-top:var(--main-border);
+    padding-top: 40px;
+}
+.more-suggestions__title{
+    margin-bottom: 20px;
+}
+.more-suggestions__icon{
+    display:flex;
+    flex-direction: column;
+}
+.more-suggestions__icon img{
+    width:20%;
+}
+.more-suggestions__icon-text{
+    
+}
