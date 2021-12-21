@@ -1,0 +1,11 @@
+.more-screen {
+  display: flex;
+  flex-direction: column;
+}
+.settings {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.settings-text {
+  margin-left: 20px;
+}
