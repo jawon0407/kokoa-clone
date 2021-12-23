@@ -1,21 +1,21 @@
-.badge{
-background-color: tomato;
-width: 25px;
-height: 25px;
-font-size: 20px;
-border-radius: 15px;
-display:flex;
-align-items: center;
-justify-content: center;
-color: white;
-font-weight: 600;
+.badge {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
 }
-.tomato-dot{
-background-color: tomato;
-width: 6px;
-height: 6px;
-border-radius: 15px;
-position:absolute;
-top:-5px;
-right:-5px;
+.tomato-dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 15px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }

@@ -15,4 +15,5 @@
 
 .friends__screen {
   padding: 0px var(--horizontal-space);
+  z-index: -1;
 }

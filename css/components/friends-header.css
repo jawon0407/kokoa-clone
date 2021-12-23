@@ -34,3 +34,16 @@
 .friends-header_icons > span:last-child {
   position: relative;
 }
+.friends-header_icons {
+  position: relative;
+}
+.friends-header_icons_dot {
+  background-color: tomato;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 15px;
+  left: 5px;
+  top: -3px;
+  position: absolute;
+}

@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Settings - Kokoa Clone</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar_column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
-        </svg>
       </div>
       <div class="status-bar_column">
         <span>18:43</span>
@@ -23,130 +22,149 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    
+
     <nav class="nav">
-        <ul class="nav__ul">
-            <li class="nav__li"><a class="nav__link" href="Friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-            <li class="nav__li"><a class="nav__link" href="chats.html"><i class="far fa-comment fa-2x"><span class="nav_notification badge
-              ">1</span></i></a></li>
-            <li class="nav__li"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__li"><a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i><span class="nav__notification_dot"></span></a></li>
-        </ul>
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__link" href="Friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="chats.html"
+            ><i class="far fa-comment fa-2x"
+              ><span class="nav_notification badge">1</span></i
+            ></a
+          >
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+            ><span class="nav__notification_dot"></span
+          ></a>
+        </li>
+      </ul>
     </nav>
 
     <header class="friends-header">
-        <div class="friends-header_icons">
-              <i class="fas fa-chevron-left fa-lg"></i>
-        </div>
-        <h1 class="friends-header_title-sm">Settings</h1>
-        <div class="friends-header_icons">
-            <i class="fas fa-search fa-lg"></i>
-        </div>
+      <div class="friends-header_icons">
+        <i class="fas fa-chevron-left fa-lg"></i>
+      </div>
+      <h1 class="friends-header_title-sm">Settings</h1>
+      <div class="friends-header_icons">
+        <i class="fas fa-search fa-lg"></i>
+      </div>
     </header>
 
-<main class="friends__screen more-screen">
-  <div class="friends-user-component">
-    <div class="user-component_column">
-       <i class="fas fa-bullhorn fa-lg"></i>
-            <h4 class="user-component__title settings-text">Notices</h4>
+    <main class="friends__screen more-screen">
+      <div class="settings-first__block">
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="fas fa-bullhorn fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">Notices</h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
         </div>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="fas fa-flask fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">LoL Lab</h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
         </div>
-        <div class="user-component_column">
-        </div>
-  </div>
-  <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="fas fa-flask fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">LoL Lab</h4>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="fas fa-info-circle fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">Version</h4>
+            </div>
+          </div>
+          <div class="user-component_column">
+            <h4 class="user-component_column setting-subtext">
+              Latest Version
+            </h4>
           </div>
         </div>
-        <div class="user-component_column">
+      </div>
+      <div class="settings-second__block">
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="fas fa-lock fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">Privacy</h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
         </div>
-  </div>
-  <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="fas fa-info-circle fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Version</h4>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="far fa-bell fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">Notifications</h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="far fa-user fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">Friends</h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="far fa-comment fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">Chats</h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="fas fa-adjust fa-lg"></i>
+            <div class="user-component__text setting-block__position">
+              <h4 class="user-component__title settings-text">Display</h4>
+              <div class="badge settings-badge">N</div>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="fas fa-palette fa-lg"></i>
+            <div class="user-component__text setting-block__position">
+              <h4 class="user-component__title settings-text">Themes</h4>
+              <div class="badge settings-badge">N</div>
+            </div>
+          </div>
+          <div class="user-component_column">
+            <span>Default theme</span>
           </div>
         </div>
-        <div class="user-component_column">
-            <h4 class="user-component_column setting-subtext">Latest Version</h4>
+        <div class="friends-user-component settings">
+          <div class="user-component_column settings-block">
+            <i class="fas fa-phone-alt fa-lg"></i>
+            <div class="user-component__text">
+              <h4 class="user-component__title settings-text">Call</h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
         </div>
-  </div>
-    <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="fas fa-lock fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Privacy</h4>
-        </div>
-        </div>
-        <div class="user-component_column">
-        </div>
-  </div>
-    <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="far fa-bell fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Notifications</h4>
-        </div>
-        </div>
-        <div class="user-component_column">
-        </div>
-  </div>
-    <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="far fa-user fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Friends</h4>
-        </div>
-        </div>
-        <div class="user-component_column">
-        </div>
-  </div>
-    <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="far fa-comment fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Chats</h4>
-        </div>
-        </div>
-        <div class="user-component_column">
-        </div>
-  </div>
-    <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="fas fa-adjust fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Display</h4>
-        </div>
-        </div>
-        <div class="user-component_column">
-        </div>
-  </div>
-    <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="fas fa-palette fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Themes</h4>
-        </div>
-        </div>
-        <div class="user-component_column">
-          <span>Default theme</span>
-        </div>
-  </div>
-    <div class="friends-user-component settings">
-    <div class="user-component_column settings-block">
-       <i class="fas fa-phone-alt fa-lg"></i>
-        <div class="user-component__text">
-            <h4 class="user-component__title settings-text">Call</h4>
-        </div>
-        </div>
-        <div class="user-component_column">
-        </div>
-  </div>
-</main>
+      </div>
+    </main>
 
     <script
       script

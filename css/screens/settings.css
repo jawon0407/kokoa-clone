@@ -2,10 +2,22 @@
   display: flex;
   flex-direction: column;
 }
+.settings-first__block {
+  border-bottom: var(--main-border);
+}
 .settings {
   font-size: 20px;
-  margin: 20px 0px;
+  margin: 50px 0px;
 }
 .settings-text {
   margin-left: 20px;
+}
+.setting-block__position {
+  display: flex;
+  position: relative;
+}
+.settings-badge {
+  position: absolute;
+  right: -35px;
+  font-size: 14px;
 }
