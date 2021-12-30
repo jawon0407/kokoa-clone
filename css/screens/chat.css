@@ -18,5 +18,66 @@
   z-index: 2;
 }
 .main-chat {
-  margin-top: 150px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__timestamp {
+  font-size: 14px;
+  border-radius: 40px;
+  background-color: #92a4b2;
+  color: white;
+  padding: 8px 15px;
+  margin-bottom: 25px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+}
+.message-row img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.message__author {
+  opacity: 0.8;
+  font-size: 15px;
+}
+.message__info {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+.message__bubble {
+  background-color: white;
+  font-size: 18px;
+  padding: 8px 13px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+}
+.message__time {
+  font-size: 13px;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+.message-rel {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+.message__rel-bubble {
+  background-color: yellow;
+  border-radius: 15px;
+  padding: 8px 13px;
+  font-size: 18px;
+  border-top-right-radius: 0px;
+}
+.message__rel-time {
+  font-size: 13px;
+  opacity: 0.5;
+  margin-right: 10px;
 }
