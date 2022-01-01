@@ -81,3 +81,56 @@
   opacity: 0.5;
   margin-right: 10px;
 }
+.reply {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  padding: 5px 25px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply i:not(button > i) {
+  opacity: 0.5;
+}
+.reply__column:first-child i {
+  border-radius: 10px;
+  opacity: 0.5;
+  width: 10%;
+}
+.reply__column:last-child {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  position: relative;
+}
+.reply input {
+  padding: 5px;
+  border: none;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+.reply__column:last-child > i {
+  right: 35px;
+  top: 6px;
+}
+button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: yellow;
+  border: none;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
