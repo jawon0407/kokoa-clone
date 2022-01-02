@@ -31,6 +31,19 @@
   padding: 8px 15px;
   margin-bottom: 25px;
 }
+.chat__timestamp-second {
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 8px 15px;
+  background-color: #92a4b2;
+  color: white;
+  margin-top: 30px;
+}
+.message-row-whole {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .message-row {
   width: 100%;
   display: flex;

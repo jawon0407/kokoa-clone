@@ -7,7 +7,7 @@
     <title>Chat - Kokoa Clone</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar_column">
         <span>No Service</span>
@@ -26,18 +26,88 @@
     <header class="alt-header">
       <div class="alt-header__column">
         <a href="chats.html" target="_self">
-          <i class="fas fa-chevron-left fa-lg"></i
-        ></a>
+          <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
       </div>
       <div class="alt-header__column">
         <h1 class="friends-header_title-sm">Caitlyn</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"></i>
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="friends__screen more-screen"></main>
+    <main class="main-screen main-chat">
+      
+      <div class="chat__timestamp">Friday, December 30, 2021</div>
+
+      <div class="message-row">
+        <img src="image/Caitlyn.jpg" alt="Caitlyn" />
+        <div class="message-row__content">
+          <span class="message__author">Caitlyn</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:25</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-rel">
+        <div class="message-rel__content">
+          <div class="message__info">
+            <span class="message__rel-time">21:26</span>
+            <span class="message__rel-bubble">What's up?</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat__timestamp-second">Sunday, Jeunary 2, 2022</div>
+      <!--
+        <div class="message-row-whole">
+          <div class="message-row">
+            <img src="image/Caitlyn.jpg" alt="Caitlyn" />
+            <div class="message-row__content">
+           <span class="message__author">Caitlyn</span>
+           <div class="message__info">
+              <span class="message__bubble">I never miss the target</span>
+              <span class="message__time">20:15</span>
+           </div>
+          </div>
+          <div class="message-row">
+            <img src="image/Caitlyn.jpg" alt="Caitlyn" />
+            <div class="message-row__content">
+            <span class="message__author">Caitlyn</span>
+            <div class="message__info">
+              <span class="message__bubble">I never miss the target</span>
+              <span class="message__time">20:15</span>
+            </div>
+          </div>
+          <div class="message-row">
+            <img src="image/Caitlyn.jpg" alt="Caitlyn" />
+            <div class="message-row__content">
+              <span class="message__author">Caitlyn</span>
+              <div class="message__info">
+                <span class="message__bubble">I never miss the target</span>
+                <span class="message__time">20:15</span>
+              </div>
+          </div>
+        </div>
+        -->
+    </main>
+
+    <form action="#" method="get" class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       script
