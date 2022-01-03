@@ -1,7 +1,6 @@
 .user-component {
   justify-content: space-between;
   margin-bottom: var(--horizontal-space);
-  border-bottom: var(--main-border);
   padding-bottom: 5px;
 }
 .user-component,
@@ -45,7 +44,7 @@
 .user-component__subtitle {
   margin-top: 8px;
   color: var(--text-color);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .user-component__avator--xl {
@@ -91,4 +90,13 @@
   padding-bottom: 5px;
   display: flex;
   align-items: center;
+}
+.friends-introduce {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: thistle;
 }

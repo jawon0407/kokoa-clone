@@ -39,11 +39,7 @@
   color: white;
   margin-top: 30px;
 }
-.message-row-whole {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 .message-row {
   width: 100%;
   display: flex;
@@ -59,9 +55,13 @@
   font-size: 15px;
 }
 .message__info {
-  margin-top: 5px;
+  margin-top: 20px;
   display: flex;
   align-items: flex-end;
+}
+.message__info > span > img {
+  width: 100px;
+  height: 100px;
 }
 .message__bubble {
   background-color: white;
@@ -100,7 +100,7 @@
   display: flex;
   position: fixed;
   bottom: 0;
-  padding: 5px 25px;
+  padding: 10px 25px;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
@@ -120,21 +120,21 @@
   position: relative;
 }
 .reply input {
-  padding: 5px;
+  padding: 15px;
   border: none;
   width: 100%;
   border: var(--main-border);
-  border-radius: 20px;
+  border-radius: 50px;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -1px;
-  top: -1px;
+  right: 6px;
+  top: 7px;
 }
 .reply__column:last-child > i {
-  right: 35px;
-  top: 6px;
+  right: 45px;
+  top: 13px;
 }
 button {
   height: 30px;
@@ -146,4 +146,7 @@ button {
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+}
+.reply__column:nth-child(2) > i {
+  font-size: 23px;
 }

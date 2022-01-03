@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 0px;
+  padding: 20px 0px;
+  margin-top: 10px;
 }
 .alt-header__column {
   font-size: 20px;

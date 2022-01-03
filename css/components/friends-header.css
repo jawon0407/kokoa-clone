@@ -24,6 +24,7 @@
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
+  margin-bottom: 20px;
 }
 .friends-screen__channel-header {
   margin-bottom: 30px;
