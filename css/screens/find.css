@@ -90,3 +90,7 @@
 .open-post__heartcount span {
   margin-left: 3px;
 }
+.open-post__heartcount i:active {
+  cursor: pointer;
+  color: red;
+}

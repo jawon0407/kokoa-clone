@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 1100vh;
+  height: 85vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
@@ -8,7 +8,7 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  color: white;
 }
 #chat-screen .alt-header {
   z-index: 1;
@@ -17,6 +17,63 @@
 #chat-screen .status-bar {
   z-index: 2;
 }
+
+.riven::before {
+  content: "";
+  background: url(https://blog.kakaocdn.net/dn/QZokl/btq8iwquWEM/6G39QGZJeIMAPIkINd0Sn0/img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.jayce::before {
+  content: "";
+  background: url(https://lol-skin.weblog.vc/img/wallpaper/loading/Jayce_5.jpg?1638896335);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.vi::before {
+  content: "";
+  background: url(https://w.namu.la/s/1ee959cb3a62d7c2e20bb2219bfd50f2303853014860c7407bf4a70317b926b21d69cfbd98d7b79cbe0f63678a1da7a670ca4a6f4cfb9549012319e640c15a85e3bae5ba365b5f70637537bf253078f8905fc64054ed5bf98ed7b91a9217f449);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.caitlyn::before {
+  content: "";
+  background: url(https://p4.wallpaperbetter.com/wallpaper/704/132/878/vertical-portrait-display-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 .main-chat {
   margin-top: 120px;
   display: flex;
@@ -43,6 +100,24 @@
 .message-row {
   width: 100%;
   display: flex;
+}
+
+.main-chat .message-row:nth-child(2) {
+  animation: fade-in-right 1s linear;
+}
+
+.main-chat .message-row:last-child {
+  animation: fade-in-right 3s linear;
+}
+@keyframes fade-in-right {
+  from {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .message-row img {
   width: 45px;
@@ -80,8 +155,21 @@
   width: 100%;
   justify-content: flex-end;
   box-sizing: border-box;
-  margin-right: 5px;
+  margin-right: 14px;
+  animation: fade-in-left 1.5s linear;
 }
+
+@keyframes fade-in-left {
+  from {
+    transform: translateX(60px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .message__rel-bubble {
   background-color: yellow;
   border-radius: 15px;
@@ -125,6 +213,7 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -149,4 +238,16 @@ button {
 }
 .reply__column:nth-child(2) > i {
   font-size: 23px;
+}
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+.reply:focus-within input {
+  transform: translateX(-6%) translateY(-80px);
+  width: 100vw;
+}
+.reply:focus-within {
+  transform: translateY(80px);
 }

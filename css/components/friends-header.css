@@ -70,3 +70,16 @@
     visibility: hidden;
   }
 }
+.friends-header_icons .fa-cog:hover {
+  font-size: 24px;
+  color: tomato;
+  animation: cog-spin 2s ease-in-out infinite;
+}
+@keyframes cog-spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
