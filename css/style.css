@@ -150,9 +150,9 @@ body {
 
 .jayce::before {
   content: "";
-  background: url(https://lol-skin.weblog.vc/img/wallpaper/loading/Jayce_5.jpg?1638896335);
+  background: url(https://i.pinimg.com/474x/a1/27/bc/a127bcfe964f01c4554e492c0e435997.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   opacity: 0.5;
   top: 0;
   bottom: 0;
@@ -180,7 +180,7 @@ body {
   content: "";
   background: url(https://p4.wallpaperbetter.com/wallpaper/704/132/878/vertical-portrait-display-wallpaper-preview.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   opacity: 0.5;
   top: 0;
   bottom: 0;
