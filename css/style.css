@@ -26,7 +26,7 @@ body:not(#login) {
   height: 110vh;
   overflow: auto;
   background-image: url(https://mblogthumb-phinf.pstatic.net/20150605_121/derod1023_1433435616944O7wYM_JPEG/cl01-006.jpg?type=w2);
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
