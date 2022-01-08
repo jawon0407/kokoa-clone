@@ -23,7 +23,11 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  height: 110vh;
   overflow: auto;
+  background-image: url(https://mblogthumb-phinf.pstatic.net/20150605_121/derod1023_1433435616944O7wYM_JPEG/cl01-006.jpg?type=w2);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #login {
@@ -42,150 +46,4 @@ body {
   right: 0;
   z-index: -1;
   position: absolute;
-}
-
-#friends {
-  height: 90vh;
-}
-
-#friends::before {
-  content: "";
-  background-image: url(https://i.imgur.com/u2lxhgl.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-#chats {
-  height: 100vh;
-}
-
-#chats::before {
-  content: "";
-  background-image: url(https://www.kukinews.com/data/kuk/image/2021/11/07/kuk202111070009.500x.0.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.3;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-#find {
-  height: 100vh;
-}
-
-#find::before {
-  content: "";
-  background-image: url(https://t1.daumcdn.net/cfile/tistory/27051D37589B34C803);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-#more {
-  height: 90vh;
-}
-
-#more::before {
-  content: "";
-  background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxODAxMjFfMTMy/MDAxNTE2NTQyOTA0Mzk3.sodrPAj7QOabX0S6tKObbbAGo9xXkX3QiauDEU0ShTgg.olNXD3GdYDF3JH9C36dnI1NUuuJdcfv61uBTCVR2c1Eg.JPEG.knicjin/20180121-010.jpg?type=w800);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-#settings {
-  height: 90vh;
-}
-
-#settings::before {
-  content: "";
-  background-image: url(https://t1.daumcdn.net/cfile/tistory/9968AA3A5BACE4751C);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  position: absolute;
-}
-
-.riven::before {
-  content: "";
-  background: url(https://blog.kakaocdn.net/dn/QZokl/btq8iwquWEM/6G39QGZJeIMAPIkINd0Sn0/img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.jayce::before {
-  content: "";
-  background: url(https://i.pinimg.com/474x/a1/27/bc/a127bcfe964f01c4554e492c0e435997.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.vi::before {
-  content: "";
-  background: url(https://w.namu.la/s/1ee959cb3a62d7c2e20bb2219bfd50f2303853014860c7407bf4a70317b926b21d69cfbd98d7b79cbe0f63678a1da7a670ca4a6f4cfb9549012319e640c15a85e3bae5ba365b5f70637537bf253078f8905fc64054ed5bf98ed7b91a9217f449);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.caitlyn::before {
-  content: "";
-  background: url(https://p4.wallpaperbetter.com/wallpaper/704/132/878/vertical-portrait-display-wallpaper-preview.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
 }
