@@ -23,7 +23,7 @@
 body:not(#login) {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
-  height: 110vh;
+  height: 100vh;
   overflow: auto;
   background-image: url(https://mblogthumb-phinf.pstatic.net/20150605_121/derod1023_1433435616944O7wYM_JPEG/cl01-006.jpg?type=w2);
   background-repeat: no-repeat;
