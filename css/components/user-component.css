@@ -12,14 +12,14 @@
   display: none;
 }
 .user-component__avator {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 25px;
   margin-right: 20px;
 }
 .user-component__title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .user-component__block {
@@ -44,22 +44,23 @@
 .user-component__subtitle {
   margin-top: 8px;
   color: var(--text-color);
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .user-component__avator--xl {
-  width: 80px;
-  height: 80px;
-  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
 }
 
 .user-component__avator--sm {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 25px;
 }
 
 .user-component__title--not-bold {
+  font-size: 14px;
   font-weight: 400;
 }
 .friends-screen__channel {
@@ -73,6 +74,10 @@
   justify-content: space-between;
   color: var(--text-second-color);
 }
+.friends-screen__channel-header span,
+.friends-screen__channel span {
+  font-size: 14px;
+}
 .user-component_column:last-child {
   color: var(--text-second-color);
   display: flex;
@@ -82,6 +87,7 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+  font-size: 12px;
 }
 
 .friends-user-component {
@@ -95,8 +101,8 @@
   border: 1px solid black;
   border-radius: 10px;
   border-bottom-left-radius: 0px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: thistle;
 }

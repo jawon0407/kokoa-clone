@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: #2962ff;
-  padding: 20px 50px;
+  padding: 10px 25px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
   z-index: 1;
@@ -35,7 +35,7 @@
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.6;
     transform: none;
   }
 }
@@ -43,6 +43,10 @@
 .nav__ul {
   display: flex;
   justify-content: space-around;
+}
+
+.nav__ul i {
+  font-size: 20px;
 }
 
 .nav__link {
@@ -58,8 +62,8 @@
 
 .nav_notification {
   position: absolute;
-  left: 18px;
-  bottom: 18px;
+  left: 12px;
+  bottom: 12px;
 }
 
 .nav__notification_dot {
@@ -69,6 +73,6 @@
   height: 6px;
   border-radius: 15px;
   position: absolute;
-  bottom: 30px;
-  left: 35px;
+  bottom: 20px;
+  left: 25px;
 }
