@@ -8,6 +8,11 @@
   display: flex;
   align-items: center;
 }
+
+.user-component_column {
+  font-size: 14px;
+}
+
 .user-component:active > .user-component_column > .badge {
   display: none;
 }
@@ -105,4 +110,8 @@
   padding-left: 5px;
   padding-right: 5px;
   background-color: thistle;
+}
+
+.friends-header_icons span {
+  font-size: 14px;
 }

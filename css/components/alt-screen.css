@@ -10,6 +10,11 @@
   font-weight: 600;
   width: 33%;
 }
+
+.alt-header__column i {
+  font-size: 18px;
+}
+
 .alt-header__column:first-child {
   margin-right: auto;
 }

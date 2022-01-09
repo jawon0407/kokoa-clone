@@ -6,13 +6,13 @@
 }
 
 .friends-header_title {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 600;
   margin: 10px 0px;
 }
 
 .friends-header_title-sm {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 600;
   margin: 10px 0px;
 }
@@ -71,7 +71,7 @@
   }
 }
 .friends-header_icons .fa-cog:hover {
-  font-size: 24px;
+  font-size: 20px;
   color: tomato;
   animation: cog-spin 2s ease-in-out infinite;
 }
