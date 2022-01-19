@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #2962ff;
+  background-color: palegreen;
   padding: 10px 25px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
@@ -35,7 +35,7 @@
     opacity: 0;
   }
   100% {
-    opacity: 0.6;
+    opacity: 1;
     transform: none;
   }
 }
@@ -56,8 +56,7 @@
 }
 
 .nav__link:hover {
-  font-size: 18px;
-  color: turquoise;
+  color: green;
 }
 
 .nav_notification {
