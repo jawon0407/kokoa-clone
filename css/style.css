@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600&display=swap");
 @import "reset.css";
 @import "variable.css";
 
@@ -22,10 +22,10 @@
 
 body:not(#login) {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
-  height: 110vh;
+  font-family: "Advent Pro", sans-serif;
+  height: 105vh;
   overflow: auto;
-  background-image: url(https://mblogthumb-phinf.pstatic.net/20150605_121/derod1023_1433435616944O7wYM_JPEG/cl01-006.jpg?type=w2);
+  background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxOTExMjlfMTcg/MDAxNTc1MDE4MDA1MjEy.T5h4NNrioZFrg8LwxIoLqKeZzp0uWk8C_lJeQNXcGrcg.CPtRX-S_OFctDjulTvJ3klH9LenFwd8G5cJU45tNKkcg.PNG.jinmichu/15.png?type=w800);
   background-repeat: no-repeat;
   background-size: cover;
 }
