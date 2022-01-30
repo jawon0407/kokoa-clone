@@ -29,3 +29,12 @@
   border-radius: 10px;
   height: 80px;
 }
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row__icon span {
+  text-align: center;
+}
